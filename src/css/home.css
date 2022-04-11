@@ -1,0 +1,251 @@
+
+a#anc{
+  transition: .12s linear;
+  color: #39b54a;
+  text-decoration: none;
+  margin: .5em auto;
+  font-family: sans-serif;
+  font-size: .88em;
+  text-align: center;
+}
+
+a#anc:hover{
+  transition: .12s linear;
+  color: black;
+}
+
+.result{
+  display: flex;
+  margin: .5em auto;
+  max-width: 260px;
+  padding:.32em 1.28em;
+  font-size: .88em;
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #424448;
+}
+
+.nav{
+  width: 100%;
+  height: auto;
+  padding: 2em 0em;
+  min-height: 0em;
+  padding-top: .8em ;
+  padding-bottom: .8em;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.body{
+  width: 100%;
+}
+
+  a, h5{
+    margin: auto;
+    color: rgba(142,142,147,1);;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #39b54a;
+  }
+
+
+.nav.fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transition: .12s linear;
+  transform: translateY(-100px);
+  box-shadow: 0px 4px 0em rgba(0, 0, 0, .1);
+}
+
+.nav.fixed.pin{
+  transition: .12s linear;
+  transform: translateY(0px);
+  box-shadow: 0px 0px 2em rgba(0, 0, 0, .1);
+}
+
+form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 0em;
+  /* border-left:  1px solid rgba(235,235,240,1); */
+  /* margin-left: 0em; */
+}
+ form input, legend, textarea, button{
+  /* list-style: none;
+  appearance: none;
+  margin: .5em auto;
+  max-width: 260px;
+  padding:.32em 1.28em;
+  transition: .12s linear; */
+  margin: .5em auto;
+  /* margin-left: 1em; */
+}
+
+form input{
+  min-width: 240px;
+  box-shadow:  none;
+  padding: .6em 1em;
+  border-bottom:  1px solid #39b54a;
+  border-radius: 0em;
+  font-size: 1em;
+}
+
+fOrm button{
+
+  font-size: 1em;
+  border-radius: .2em;
+  border: 1px solid #39b54a;
+  padding: .6em 1em;
+}
+
+form legend{
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  /* text-weight: normal; */
+}
+legend{
+  font-size: 1.16em;
+  font-weight: 600;
+}
+input, textarea, button{
+  outline: none;
+  border: 0em;
+  background: white;
+  box-shadow: 1px 2px 1em rgba(30, 30, 30, .1);
+  border-radius: .32em;
+}
+input, textarea{
+  color: #777;
+}
+input:hover, textarea:hover{
+  color: #444;
+  transition: .12s linear;
+  background: #fcfcfc;
+}
+input:focus, textarea:focus{
+  color: black;
+  transition: .12s linear;
+}
+button{
+  border: none;
+  background: #39b54a;
+  cursor: pointer;
+  color: white;
+  box-shadow: none;
+  border: 1px solid black;
+}
+button:hover{
+  background: white;
+  color: #39b54a;
+}
+
+.data_wrapper{
+  width: 80%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 10%;
+  min-height: 0em;
+  font-family: sans-serif;
+}
+
+.pwd_wrapper{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 0em;
+}
+
+.pwd_info a{
+  outline: none;
+  border-radius: .32em;
+  border: none;
+  background: #39b54a;
+  cursor: pointer;
+  color: white;
+  box-shadow: none;
+  border: 1px solid #39b54a;
+  margin: 0.5em;
+  padding: 0.6em;
+  margin-left: 0em;
+  border-radius: .2em;
+}
+
+.pwd_info a:hover{
+  transition: .12s linear;
+  color: black;
+  background: rgba(0,0,0,0);
+  border: 1px solid black;
+}
+
+.pwd_info:hover{
+  background: #f2f8f4;
+}
+
+.pwd_info{
+  width: calc(100% - 2em);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: .5em auto;
+  padding: 1em;
+  margin-left: 0em;
+  border-bottom: 1px solid rgba(235,235,240,1);
+
+}
+.save_new_pwd{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 0em;
+  border-left:  1px solid rgba(235,235,240,1);
+  margin-left: 0em;
+  transform: translateY(0px);
+}
+
+.save_new_pwd legend, .save_new_pwd input,
+.save_new_pwd button, .save_new_pwd a {
+  margin: .5em auto;
+  margin-left: 1em;
+}
+
+.save_new_pwd input{
+  min-width: 240px;
+  box-shadow:  none;
+  padding: .6em 1em;
+  border-bottom:  1px solid #39b54a;
+  border-radius: 0em;
+  font-size: 1em;
+}
+
+.save_new_pwd button{
+  font-size: 1em;
+  border-radius: .2em;
+  border: 1px solid #39b54a;
+  padding: .6em 1em;
+}
+.save_new_pwd button[name="clean"]{
+  display: none;
+}
